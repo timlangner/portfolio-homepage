@@ -1,7 +1,8 @@
 import NextLink from 'next/link'
-import { Container, Box, Button, Heading, Image, useColorModeValue } from '@chakra-ui/react'
+import { Container, Box, Button, Heading, Image, Link, useColorModeValue } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
+import { BioSection, BioYear } from '../components/bio'
 
 const Page = () => {
     return (
@@ -54,6 +55,33 @@ const Page = () => {
                         </Button>
                     </NextLink>
                 </Box>
+            </Section>
+
+            <Section delay={0.2}>
+                <Heading as="h3" variant="section-title">
+                    Bio
+                </Heading>
+                <BioSection>
+                <BioYear>1999</BioYear>
+                    Born in Nordhorn, Lower Saxony, Germany.
+                </BioSection>
+                <BioSection>
+                <BioYear>2019</BioYear>
+                    Became a state-certified information technology assistant after graduating at the Industrial Vocational School GBS Nordhorn
+                </BioSection>
+                <BioSection>
+                <BioYear>2019 - 2022</BioYear>
+                    Training as an IT specialist for application development, Tobit Software Laboritories AG
+                </BioSection>
+            </Section>
+
+            <Section delay={0.3}>
+                <Heading as="h3" variant="section-title">
+                    I ♥
+                </Heading>
+                <p>
+                    Space, Music, Photography, Games
+                </p>
             </Section>
         </Container>
     )
