@@ -16,6 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import { IoLogoGithub } from 'react-icons/io5'
+import ThemeToggleButton from './theme-toggle-button'
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -70,8 +71,8 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
-            Works
+          <LinkItem href="/projects" path={path}>
+            Projects
           </LinkItem>
           <LinkItem href="/posts" path={path}>
             Posts
@@ -91,6 +92,8 @@ const Navbar = props => {
         </Stack>
 
         <Box flex={1} align="right">
+            <ThemeToggleButton />
+
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu isLazy id="navbar-menu">
               <MenuButton
@@ -103,7 +106,7 @@ const Navbar = props => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
+                <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
