@@ -8,7 +8,7 @@ const Page = () => {
     return (
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} align="center">
-                Hello, I&apos;m a full-stack developer based in Germany!
+                Hello, I'm an iOS developer based in Germany!
             </Box>
 
             <Box display={{md: 'flex'}}>
