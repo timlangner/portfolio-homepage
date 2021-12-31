@@ -1,4 +1,6 @@
-import { Container, Box, Heading, Image, useColorModeValue } from '@chakra-ui/react'
+import NextLink from 'next/link'
+import { Container, Box, Button, Heading, Image, useColorModeValue } from '@chakra-ui/react'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 
 const Page = () => {
@@ -38,7 +40,20 @@ const Page = () => {
                 <Heading as="h3" variant="section-title">
                     Work
                 </Heading>
-                <p>Paragraph</p>
+                <p>
+                    Tim is an iOS developer who currently works
+                    on multiple iOS Apps within a team of six engineers.
+                    We're constantly implementing new features such as
+                    Augmented Reality experiences and Covid-19
+                    test- & vaccine appointments.
+                </p>
+                <Box align="center" my={4}>
+                    <NextLink href="/works">
+                        <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                            My portfolio
+                        </Button>
+                    </NextLink>
+                </Box>
             </Section>
         </Container>
     )
