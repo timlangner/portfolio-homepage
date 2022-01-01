@@ -18,16 +18,16 @@ const Projects = () => (
         </Section>
         <Section>
           <ProjectGridItem
-            id="blobwar-discord-bot "
+            id="blobwar-discord-bot"
             title="BlobWar Discord Bot"
           >
-            Clan Management and stat Discord Bot for BlobWar.io
+            Stats and Clan Management Discord Bot for BlobWar.io
           </ProjectGridItem>
         </Section>
 
         <Section delay={0.1}>
           <ProjectGridItem
-            id="resizeable"
+            id="resizable"
             title="Resizeable"
           >
             Resizeable chayns® pagemaker element for space between elements
@@ -40,7 +40,7 @@ const Projects = () => (
         </Section>
 
         <Section delay={0.1}>
-          <ProjectGridItem id="chayns-header" title="Chayns Header">
+          <ProjectGridItem id="chayns-header" title="chayns® Header">
             Smooth header transition layout for mobile and desktop chayns® sites
           </ProjectGridItem>
         </Section>
