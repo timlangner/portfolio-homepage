@@ -7,7 +7,13 @@ import { BioSection, BioYear } from '../components/bio'
 const Page = () => {
     return (
         <Container>
-            <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} align="center">
+            <Box
+                borderRadius="lg"
+                mb={6}
+                p={3}
+                textAlign="center"
+                bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+            >
                 Hello, I'm an iOS developer based in Germany!
             </Box>
 
