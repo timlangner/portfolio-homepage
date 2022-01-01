@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
 
-const Works = () => (
+const Projects = () => (
   <Layout title="Projects">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
@@ -55,4 +55,4 @@ const Works = () => (
   </Layout>
 )
 
-export default Works
+export default Projects
