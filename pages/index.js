@@ -1,9 +1,10 @@
 import NextLink from 'next/link'
-import { Container, Box, Button, Heading, Image, Link, useColorModeValue } from '@chakra-ui/react'
+import { Container, Box, Button, Heading, Image, Link, List, ListItem, Icon, useColorModeValue } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { BioSection, BioYear } from '../components/bio'
+import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 
 const Page = () => {
     return (
@@ -90,6 +91,36 @@ const Page = () => {
                     <p>
                         Space, Music, Photography, Games
                     </p>
+                </Section>
+
+                <Section delay={0.3}>
+                    <Heading as="h3" variant="section-title">
+                        On the web
+                    </Heading>
+                    <List>
+                    <ListItem>
+                        <Link href="https://github.com/timlangner" target="_blank">
+                        <Button
+                            variant="ghost"
+                            colorScheme="teal"
+                            leftIcon={<Icon as={IoLogoGithub} />}
+                        >
+                            @timlangner
+                        </Button>
+                        </Link>
+                    </ListItem>
+                    <ListItem>
+                        <Link href="https://www.instagram.com/tim.0811" target="_blank">
+                        <Button
+                            variant="ghost"
+                            colorScheme="teal"
+                            leftIcon={<Icon as={IoLogoInstagram} />}
+                        >
+                            @tim.0811
+                        </Button>
+                        </Link>
+                    </ListItem>
+                    </List>
                 </Section>
             </Container>
         </Layout>
