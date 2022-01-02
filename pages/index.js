@@ -17,7 +17,7 @@ const Page = () => {
                     textAlign="center"
                     bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
                 >
-                    Hello, I&apos;m an iOS developer based in Germany!
+                    Hello, I&apos;m a full stack developer based in Germany!
                 </Box>
 
                 <Box display={{md: 'flex'}}>
@@ -51,7 +51,7 @@ const Page = () => {
                         Work
                     </Heading>
                     <p>
-                        I&apos;m an iOS developer who currently works
+                        I&apos;m a full stack developer who currently works
                         on multiple iOS Apps within a team of six engineers.
                         We&apos;re constantly implementing new features such as
                         Augmented Reality experiences and Covid-19
@@ -84,7 +84,7 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                     <BioYear>2019 - 2022</BioYear>
-                        Training as an IT specialist for application development, Tobit Software Laboritories AG
+                        Training as an IT specialist for application development, Tobit Software Laboratories AG
                     </BioSection>
                 </Section>
 
