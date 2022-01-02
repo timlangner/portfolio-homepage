@@ -30,7 +30,7 @@ const Projects = () => (
             id="deadly-road"
             title="Deadly Road"
           >
-            Addictive & challenging Jump n' Run Platformer mobile game
+            Addictive & challenging Jump n&apos; Run Platformer mobile game
           </ProjectGridItem>
         </Section>
         <Section delay={0.1}>

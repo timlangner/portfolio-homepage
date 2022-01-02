@@ -10,7 +10,7 @@ const Project = () => (
         Deadly Road
       </Title>
       <p>
-        Addictive & challenging Jump n' Run Platformer mobile game
+        Addictive & challenging Jump n&apos; Run Platformer mobile game
       </p>
       <List ml={4} my={4}>
         <ListItem>
