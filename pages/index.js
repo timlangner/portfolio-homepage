@@ -79,6 +79,10 @@ const Page = () => {
                         Became a state-certified information technology assistant after graduating at the Industrial Vocational School GBS Nordhorn
                     </BioSection>
                     <BioSection>
+                    <BioYear>2019</BioYear>
+                        Internship as an application developer
+                    </BioSection>
+                    <BioSection>
                     <BioYear>2019 - 2022</BioYear>
                         Training as an IT specialist for application development, Tobit Software Laboritories AG
                     </BioSection>
