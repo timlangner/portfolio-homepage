@@ -51,7 +51,7 @@ const Page = () => {
                         Work
                     </Heading>
                     <p>
-                        Tim is an iOS developer who currently works
+                        I&apos;m an iOS developer who currently works
                         on multiple iOS Apps within a team of six engineers.
                         We&apos;re constantly implementing new features such as
                         Augmented Reality experiences and Covid-19
