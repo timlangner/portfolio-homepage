@@ -17,7 +17,7 @@ const Page = () => {
                     textAlign="center"
                     bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
                 >
-                    Hello, I'm an iOS developer based in Germany!
+                    Hello, I&apos;m an iOS developer based in Germany!
                 </Box>
 
                 <Box display={{md: 'flex'}}>

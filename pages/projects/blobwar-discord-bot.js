@@ -1,6 +1,5 @@
-import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, ProjectImage, Meta } from '../../components/project'
+import { Container, Link, List, ListItem } from '@chakra-ui/react'
+import { Title, Meta } from '../../components/project'
 import Layout from '../../components/layouts/article'
 
 const Project = () => (
