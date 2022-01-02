@@ -35,19 +35,19 @@ const Projects = () => (
         </Section>
         <Section delay={0.1}>
           <ProjectGridItem id="blobwar-api" title="BlobWar Express API">
-            Express API for the retired Agario like game BlobWar.io
+            Express API for the retired Agar.io like game BlobWar.io
+          </ProjectGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <ProjectGridItem id="bublex-client" title="Bublex client">
+            Game client for the retired Agar.io like game bublex.io
           </ProjectGridItem>
         </Section>
 
         <Section delay={0.1}>
           <ProjectGridItem id="timeline" title="Timeline">
             Animated timeline for job and education history
-          </ProjectGridItem>
-        </Section>
-
-        <Section delay={0.1}>
-          <ProjectGridItem id="bublex-client" title="Bublex client">
-            Game client for the retired agar.io like game bublex.io
           </ProjectGridItem>
         </Section>
       </SimpleGrid>

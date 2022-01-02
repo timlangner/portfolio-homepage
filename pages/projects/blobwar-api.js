@@ -10,7 +10,7 @@ const Project = () => (
         BlobWar Express API
       </Title>
       <p>
-      Express API for the retired Agario like game BlobWar.io
+      Express API for the retired Agar.io like game BlobWar.io
       </p>
       <List ml={4} my={4}>
         <ListItem>
