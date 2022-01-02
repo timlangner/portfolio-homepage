@@ -4,19 +4,19 @@ import { Title, Meta } from '../../components/project'
 import Layout from '../../components/layouts/article'
 
 const Project = () => (
-  <Layout title="BlobWar API">
+  <Layout title="Timeline">
     <Container>
       <Title>
-        BlobWar Express API
+        Timeline
       </Title>
       <p>
-      Express API for the retired Agario like game BlobWar.io
+        Animated timeline for job and education history
       </p>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Backend</Meta>
-          <Link href="https://github.com/timlangner/blobwar-api">
-          https://github.com/timlangner/blobwar-api <ExternalLinkIcon mx="2px" />
+          <Meta>Tool</Meta>
+          <Link href="https://github.com/timlangner/timeline">
+          https://github.com/timlangner/timeline <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -25,7 +25,7 @@ const Project = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Node.js, Express, MySQL, Sequelize, WS</span>
+          <span>React.js</span>
         </ListItem>
       </List>
     </Container>

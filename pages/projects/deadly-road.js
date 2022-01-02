@@ -4,28 +4,28 @@ import { Title, Meta } from '../../components/project'
 import Layout from '../../components/layouts/article'
 
 const Project = () => (
-  <Layout title="BlobWar API">
+  <Layout title="Deadly Road">
     <Container>
       <Title>
-        BlobWar Express API
+        Deadly Road
       </Title>
       <p>
-      Express API for the retired Agario like game BlobWar.io
+        Addictive & challenging Jump n' Run Platformer mobile game
       </p>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Backend</Meta>
-          <Link href="https://github.com/timlangner/blobwar-api">
-          https://github.com/timlangner/blobwar-api <ExternalLinkIcon mx="2px" />
+          <Meta>Tool</Meta>
+          <Link href="https://play.google.com/store/apps/details?id=com.TL.DeadlyRoad">
+            https://play.google.com/store/apps/details?id=com.TL.DeadlyRoad <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Web</span>
+          <span>Android</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Node.js, Express, MySQL, Sequelize, WS</span>
+          <span>Unity, SQLite</span>
         </ListItem>
       </List>
     </Container>
