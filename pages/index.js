@@ -55,7 +55,10 @@ const Page = () => {
                         on multiple iOS Apps within a team of six engineers.
                         We&apos;re constantly implementing new features such as
                         Augmented Reality experiences and Covid-19
-                        test- & vaccine appointments.
+                        test- & vaccine appointments. Besides that, I&apos;ve developed,
+                        designed and maintained multiple web applications which include
+                        front- and backend using React, Redux Toolkit, ASP.NET, MS SQL Server
+                        and more.
                     </p>
                     <Box align="center" my={4}>
                         <NextLink href="/projects">
