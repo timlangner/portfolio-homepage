@@ -53,7 +53,7 @@ const Page = () => {
                     <p>
                         Tim is an iOS developer who currently works
                         on multiple iOS Apps within a team of six engineers.
-                        We're constantly implementing new features such as
+                        We&apos;re constantly implementing new features such as
                         Augmented Reality experiences and Covid-19
                         test- & vaccine appointments.
                     </p>
