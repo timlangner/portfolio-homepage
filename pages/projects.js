@@ -27,27 +27,27 @@ const Projects = () => (
 
         <Section delay={0.1}>
           <ProjectGridItem
-            id="resizable"
-            title="Resizeable"
+            id="deadly-road"
+            title="Deadly Road"
           >
-            Resizeable chayns® pagemaker element for space between elements
+            Addictive & challenging Jump n' Run Platformer mobile game
           </ProjectGridItem>
         </Section>
         <Section delay={0.1}>
           <ProjectGridItem id="blobwar-api" title="BlobWar Express API">
-            Express API for the retired Agario like game BlobWar.io
+            Express API for the retired Agar.io like game BlobWar.io
           </ProjectGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <ProjectGridItem id="chayns-header" title="chayns® Header">
-            Smooth header transition layout for mobile and desktop chayns® sites
+          <ProjectGridItem id="bublex-client" title="Bublex client">
+            Game client for the retired Agar.io like game bublex.io
           </ProjectGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <ProjectGridItem id="color-ratio-calculator" title="Color Ratio Calculator">
-            A color contrast tester and calculator for chayns®
+          <ProjectGridItem id="timeline" title="Timeline">
+            Animated timeline for job and education history
           </ProjectGridItem>
         </Section>
       </SimpleGrid>

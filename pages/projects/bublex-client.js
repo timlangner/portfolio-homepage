@@ -4,19 +4,19 @@ import { Title, Meta } from '../../components/project'
 import Layout from '../../components/layouts/article'
 
 const Project = () => (
-  <Layout title="BlobWar API">
+  <Layout title="Bublex client">
     <Container>
       <Title>
-        BlobWar Express API
+        Bublex client
       </Title>
       <p>
-      Express API for the retired Agar.io like game BlobWar.io
+        Game client for the retired agar.io like game bublex.io
       </p>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Backend</Meta>
-          <Link href="https://github.com/timlangner/blobwar-api">
-          https://github.com/timlangner/blobwar-api <ExternalLinkIcon mx="2px" />
+          <Meta>Tool</Meta>
+          <Link href="https://github.com/timlangner/bublex-client">
+            https://github.com/timlangner/bublex-client <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -25,7 +25,7 @@ const Project = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Node.js, Express, MySQL, Sequelize, WS</span>
+          <span>React.js, Sass, PixiJS, React Bootstrap</span>
         </ListItem>
       </List>
     </Container>
