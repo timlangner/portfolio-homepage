@@ -9,9 +9,9 @@ const Project = () => (
         Umbrella Sharing
       </Title>
       <p>
-        Have you ever been in a situation where it suddently starts to rain but you need to go somewhere and you don't have an umbrella? 
+        Have you ever been in a situation where it suddently starts to rain but you need to go somewhere and you don&apos;t have an umbrella? 
         This system allows everyone to buy an umbrella at different locations across the city in Ahaus. Since you buy the umbrella you could keep it
-        if you want to. But the network of multiple "umbrella-stations" around the city allows you to sell the umbrella back if you don't need
+        if you want to. But the network of multiple &quot;umbrella-stations&quot; around the city allows you to sell the umbrella back if you don&apos;t need
         it anymore. If you sell it back within two hours you even get back the full price for it.
       </p>
       <List ml={4} my={4}>
