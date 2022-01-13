@@ -16,12 +16,10 @@ const Projects = () => (
             Easy and customizable toast-notifications with React
           </ProjectGridItem>
         </Section>
-        <Section>
-          <ProjectGridItem
-            id="blobwar-discord-bot"
-            title="BlobWar Discord Bot"
-          >
-            Stats and Clan Management Discord Bot for BlobWar.io
+
+        <Section delay={0.1}>
+          <ProjectGridItem id="umbrella-sharing" title="Umbrella Sharing">
+            Frontend & Backend for an umbrella sharing system across the city
           </ProjectGridItem>
         </Section>
 
@@ -39,6 +37,12 @@ const Projects = () => (
           </ProjectGridItem>
         </Section>
 
+        <Section>
+          <ProjectGridItem id="chayns-personenzaehler" title="chayns Personenzähler">
+            Web interface for a digital person counter app
+          </ProjectGridItem>
+        </Section>
+
         <Section delay={0.1}>
           <ProjectGridItem id="bublex-client" title="Bublex client">
             Game client for the retired Agar.io like game bublex.io
@@ -48,6 +52,15 @@ const Projects = () => (
         <Section delay={0.1}>
           <ProjectGridItem id="timeline" title="Timeline">
             Animated timeline for job and education history
+          </ProjectGridItem>
+        </Section>
+        
+        <Section>
+          <ProjectGridItem
+            id="blobwar-discord-bot"
+            title="BlobWar Discord Bot"
+          >
+            Stats and Clan Management Discord Bot for BlobWar.io
           </ProjectGridItem>
         </Section>
       </SimpleGrid>
