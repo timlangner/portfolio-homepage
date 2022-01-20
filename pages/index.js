@@ -57,7 +57,7 @@ const Page = () => {
                         Augmented Reality experiences and Covid-19
                         test- & vaccine appointments. Besides that, I&apos;ve developed,
                         designed and maintained multiple web applications which include
-                        front- and backend using React, Redux Toolkit, ASP.NET, MS SQL Server
+                        front- and backend using React, Redux Toolkit, .NET and C#, MS SQL Server
                         and more.
                     </p>
                     <Box align="center" my={4}>
