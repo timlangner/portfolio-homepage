@@ -15,7 +15,7 @@ const Project = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Tool</Meta>
-          <Link href="https://github.com/timlangner/color-ratio-calculator">
+          <Link href="https://github.com/timlangner/color-ratio-calculator" isExternal>
           https://github.com/timlangner/color-ratio-calculator <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

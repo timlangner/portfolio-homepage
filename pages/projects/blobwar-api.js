@@ -15,7 +15,7 @@ const Project = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Backend</Meta>
-          <Link href="https://github.com/timlangner/blobwar-api">
+          <Link href="https://github.com/timlangner/blobwar-api" isExternal>
           https://github.com/timlangner/blobwar-api <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

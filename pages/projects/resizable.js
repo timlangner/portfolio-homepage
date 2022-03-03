@@ -15,7 +15,7 @@ const Project = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Component</Meta>
-          <Link href="https://github.com/timlangner/resizeable">
+          <Link href="https://github.com/timlangner/resizeable" isExternal>
             https://github.com/timlangner/resizeable <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

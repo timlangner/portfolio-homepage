@@ -15,7 +15,7 @@ const Project = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Layout</Meta>
-          <Link href="https://github.com/timlangner/chayns-header">
+          <Link href="https://github.com/timlangner/chayns-header" isExternal>
           https://github.com/timlangner/chayns-header <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

@@ -10,12 +10,12 @@ const Project = () => (
         Deadly Road
       </Title>
       <p>
-        Addictive & challenging Jump n' Run Platformer mobile game
+        Addictive & challenging Jump n&apos; Run Platformer mobile game
       </p>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Tool</Meta>
-          <Link href="https://play.google.com/store/apps/details?id=com.TL.DeadlyRoad">
+          <Meta>Game</Meta>
+          <Link href="https://play.google.com/store/apps/details?id=com.TL.DeadlyRoad" isExternal>
             https://play.google.com/store/apps/details?id=com.TL.DeadlyRoad <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

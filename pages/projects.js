@@ -16,12 +16,10 @@ const Projects = () => (
             Easy and customizable toast-notifications with React
           </ProjectGridItem>
         </Section>
-        <Section>
-          <ProjectGridItem
-            id="blobwar-discord-bot"
-            title="BlobWar Discord Bot"
-          >
-            Stats and Clan Management Discord Bot for BlobWar.io
+
+        <Section delay={0.1}>
+          <ProjectGridItem id="umbrella-sharing" title="Umbrella Sharing">
+            Frontend & Backend for an umbrella sharing system across the city
           </ProjectGridItem>
         </Section>
 
@@ -30,12 +28,18 @@ const Projects = () => (
             id="deadly-road"
             title="Deadly Road"
           >
-            Addictive & challenging Jump n' Run Platformer mobile game
+            Addictive & challenging Jump n&apos; Run Platformer mobile game
           </ProjectGridItem>
         </Section>
         <Section delay={0.1}>
           <ProjectGridItem id="blobwar-api" title="BlobWar Express API">
             Express API for the retired Agar.io like game BlobWar.io
+          </ProjectGridItem>
+        </Section>
+
+        <Section>
+          <ProjectGridItem id="chayns-personenzaehler" title="chayns Personenzähler">
+            Web interface for a digital person counter app
           </ProjectGridItem>
         </Section>
 
@@ -48,6 +52,15 @@ const Projects = () => (
         <Section delay={0.1}>
           <ProjectGridItem id="timeline" title="Timeline">
             Animated timeline for job and education history
+          </ProjectGridItem>
+        </Section>
+        
+        <Section>
+          <ProjectGridItem
+            id="blobwar-discord-bot"
+            title="BlobWar Discord Bot"
+          >
+            Stats and Clan Management Discord Bot for BlobWar.io
           </ProjectGridItem>
         </Section>
       </SimpleGrid>

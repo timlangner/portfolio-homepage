@@ -15,7 +15,7 @@ const Project = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Tool</Meta>
-          <Link href="https://github.com/timlangner/bublex-client">
+          <Link href="https://github.com/timlangner/bublex-client" isExternal>
             https://github.com/timlangner/bublex-client <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
