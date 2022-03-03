@@ -54,7 +54,7 @@ const Page = () => {
                         I&apos;m a full stack developer who currently works
                         on multiple iOS Apps within a team of six engineers.
                         We&apos;re constantly implementing new features such as
-                        Augmented Reality experiences and Covid-19
+                        Augmented Reality experiences, crypto algorithms and Covid-19
                         test- & vaccine appointments. Besides that, I&apos;ve developed,
                         designed and maintained multiple web applications which include
                         front- and backend using React, Redux Toolkit, .NET and C#, MS SQL Server

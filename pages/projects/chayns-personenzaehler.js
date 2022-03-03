@@ -10,7 +10,7 @@ const Project = () => (
         chayns® Personenzähler
       </Title>
       <p>
-        With the people counter visitor frequency can not only be measured automatically, but access restrictions can also be easily controlled electronically
+        With the people counter, visitor frequency can not only be measured automatically, but access restrictions can also be easily controlled electronically
       </p>
       <List ml={4} my={4}>
         <ListItem>
