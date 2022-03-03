@@ -15,7 +15,7 @@ const Project = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://momentchennoch.de/">
+          <Link href="https://momentchennoch.de/" isExternal>
           https://momentchennoch.de/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

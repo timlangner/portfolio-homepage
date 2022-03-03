@@ -15,7 +15,7 @@ const Project = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Package</Meta>
-          <Link href="https://github.com/timlangner/react-toastification">
+          <Link href="https://github.com/timlangner/react-toastification" isExternal>
           https://github.com/timlangner/react-toastification <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

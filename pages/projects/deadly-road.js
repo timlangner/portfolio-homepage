@@ -15,7 +15,7 @@ const Project = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Game</Meta>
-          <Link href="https://play.google.com/store/apps/details?id=com.TL.DeadlyRoad">
+          <Link href="https://play.google.com/store/apps/details?id=com.TL.DeadlyRoad" isExternal>
             https://play.google.com/store/apps/details?id=com.TL.DeadlyRoad <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
