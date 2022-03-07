@@ -18,7 +18,7 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 import { IoLogoGithub } from 'react-icons/io5'
 import ThemeToggleButton from './theme-toggle-button'
 
-const LinkItem = ({ href, path, children, ...props }) => {
+const LinkItem = ({ href, path, isExternal = true, children, ...props }) => {
   const active = path === href
   const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
   return (
@@ -27,7 +27,7 @@ const LinkItem = ({ href, path, children, ...props }) => {
         p={2}
         bg={active ? 'grassTeal' : undefined}
         color={active ? '#202023' : inactiveColor}
-        isExternal
+        isExternal={isExternal ? true : false}
         {...props}
       >
         {children}
@@ -71,7 +71,7 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/projects" path={path}>
+          <LinkItem href="/projects" path={path} isExternal={false}>
             Projects
           </LinkItem>
           <LinkItem
