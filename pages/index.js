@@ -51,8 +51,8 @@ const Page = () => {
                         Work
                     </Heading>
                     <p>
-                        I&apos;m a full stack developer who currently works
-                        on multiple iOS Apps within a team of six engineers.
+                        I&apos;m a full stack developer specializing in iOS app development,
+                        currently working on several iOS apps in a team of six engineers.
                         We&apos;re constantly implementing new features such as
                         Augmented Reality experiences, crypto algorithms and Covid-19
                         test- & vaccine appointments. Besides that, I&apos;ve developed,
