@@ -15,7 +15,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { BioSection, BioYear } from '../components/bio'
-import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -120,6 +120,17 @@ const Page = () => {
             On the web
           </Heading>
           <List>
+          <ListItem>
+              <Link href="https://www.linkedin.com/in/timlangner/" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                >
+                  @timlangner
+                </Button>
+              </Link>
+            </ListItem>
             <ListItem>
               <Link href="https://github.com/timlangner" target="_blank">
                 <Button
