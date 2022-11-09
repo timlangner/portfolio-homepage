@@ -144,6 +144,13 @@ const Page = () => {
             </ListItem>
           </List>
         </Section>
+
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            Contact
+          </Heading>
+          <a href="mailto:tim.langner0@gmail.com">tim.langner0@gmail.com</a>
+        </Section>
       </Container>
     </Layout>
   )
