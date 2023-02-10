@@ -1,7 +1,6 @@
 import {
   Container,
   Flex,
-  Hide,
   Image,
   Link,
   List,
@@ -49,10 +48,10 @@ const Project = () => (
         </ListItem>
       </List>
 
-      <Show above="md">
+      <Show below="md">
         <AstroneImages />
       </Show>
-      <Hide below="md">
+      <Show above="md">
         <Flex align="center" gap={3}>
           <Image
             borderRadius="lg"
@@ -85,7 +84,7 @@ const Project = () => (
             mb={4}
           />
         </Flex>
-      </Hide>
+      </Show>
     </Container>
   </Layout>
 )
