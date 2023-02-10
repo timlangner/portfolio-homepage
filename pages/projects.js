@@ -12,6 +12,13 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
+          <ProjectGridItem id="astrone" title="Astrone">
+            Personal guide for all kinds of exciting astronomy
+            events.
+          </ProjectGridItem>
+        </Section>
+
+        <Section>
           <ProjectGridItem id="react-toastification" title="react-toastification">
             Easy and customizable toast-notifications with React
           </ProjectGridItem>
