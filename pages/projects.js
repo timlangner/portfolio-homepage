@@ -14,7 +14,7 @@ const Projects = () => (
         <Section>
           <ProjectGridItem id="astrone" title="Astrone">
             Personal guide for all kinds of exciting astronomy
-            events.
+            events
           </ProjectGridItem>
         </Section>
 
