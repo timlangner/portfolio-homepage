@@ -14,18 +14,20 @@ const Project = () => (
       </p>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Game</Meta>
+          <Meta>Android</Meta>
           <Link href="https://play.google.com/store/apps/details?id=com.TL.DeadlyRoad" isExternal>
-            https://play.google.com/store/apps/details?id=com.TL.DeadlyRoad <ExternalLinkIcon mx="2px" />
+            play.google.com/store/apps/details?id=com.TL.DeadlyRoad <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
-          <Meta>Platform</Meta>
-          <span>Android</span>
+          <Meta>iOS</Meta>
+          <Link href="https://apps.apple.com/app/deadly-road/id1672610713?l=en" isExternal>
+            apps.apple.com/app/deadly-road/id1672610713?l=en <ExternalLinkIcon mx="2px" />
+          </Link>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Unity, SQLite</span>
+          <span>Adobe Xd, Unity, SQLite</span>
         </ListItem>
       </List>
     </Container>
