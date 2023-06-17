@@ -48,9 +48,10 @@ const Page = () => {
               borderColor="whiteAlpha.800"
               borderWidth={2}
               borderStyle="solid"
-              maxWidth="100px"
-              display="inline-block"
               borderRadius="full"
+              boxSize="100px"
+              objectFit="cover"
+              display="inline-block"
               src="/images/portrait.jpg"
               alt="Profile image"
             />
@@ -63,13 +64,13 @@ const Page = () => {
           </Heading>
           <p>
             I&apos;m a full-stack developer specializing in native app and
-            front-end development. Recently, I&apos;ve been working on several iOS
-            apps with a team of six engineers. We were constantly implementing
-            new features such as Augmented Reality experiences, crypto
-            algorithms and Covid-19 test- & vaccine appointments. Besides that,
-            I&apos;ve developed, designed and maintained multiple web applications
-            which include front- and backend using React, Redux Toolkit, .NET
-            and C#, MS SQL Server and more.
+            front-end development. Recently, I&apos;ve been working on several
+            iOS apps with a team of six engineers. We were constantly
+            implementing new features such as Augmented Reality experiences,
+            crypto algorithms and Covid-19 test- & vaccine appointments. Besides
+            that, I&apos;ve developed, designed and maintained multiple web
+            applications which include front- and backend using React, Redux
+            Toolkit, .NET and C#, MS SQL Server and more.
           </p>
           <Box align="center" my={4}>
             <NextLink href="/projects">
@@ -120,8 +121,11 @@ const Page = () => {
             On the web
           </Heading>
           <List>
-          <ListItem>
-              <Link href="https://www.linkedin.com/in/timlangner/" target="_blank">
+            <ListItem>
+              <Link
+                href="https://www.linkedin.com/in/timlangner/"
+                target="_blank"
+              >
                 <Button
                   variant="ghost"
                   colorScheme="teal"
