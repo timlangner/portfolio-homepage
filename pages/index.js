@@ -100,12 +100,11 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019 - 2022</BioYear>
-            Apprentice as an IT specialist for application development, Tobit
-            Software Laboratories AG
+            Software Engineer, Tobit Software Laboratories AG
           </BioSection>
           <BioSection>
             <BioYear>2022 - Current</BioYear>
-            Software Developer, Flavia IT
+            Software Engineer, Flavia IT Management GmbH
           </BioSection>
         </Section>
 
